@@ -1,0 +1,127 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Đăng ký</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="./css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="that.jpg" alt="tinh hoa am thuc" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> Trang chủ  </a>
+          <a href="about.html" class="nav-link"> Về chúng tôi </a>
+          <a href="tags.html" class="nav-link"> Từ khóa </a>
+          <a href="recipes.html" class="nav-link"> công thức </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> Đăng ký </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+     <section class="contact-container">
+          <article class="contact-info">
+            <h3>Bạn muốn giữ liên lạc với tôi không?</h3>
+            <p>
+              Bốn đô la bánh mì nướng dầu diesel sinh học kẻ sọc salvia thực sự ngâm banjo bespoke mlkshk trí tuệ edison bóng đèn synth.
+            </p>
+            <p>Cardigan lăng kính xe đạp quyền đưa một chú chim vào sâu v.</p>
+            <p>
+              Hashtag swag sức khỏe goth air plant, raclette listicle fingerstache ép lạnh fanny pack xe đạp quyền cardigan poke.
+            </p>
+          </article>
+          <article>
+            <form class="form contact-form">
+              <div class="form-row">
+                <label html="name" class="form-label">Tên của bạn </label>
+                <input type="text" name="name" id="name" class="form-input" />
+              </div>
+              <div class="form-row">
+                <label html="email" class="form-label">Gmail của bạn</label>
+                <input type="text" name="email" id="email" class="form-input" />
+              </div>
+              <div class="form-row">
+                <label html="message" class="form-label">Lời nhắn</label>
+                <textarea name="message" id="message" class="form-textarea"></textarea>
+              </div>
+              <button type="submit" class="btn btn-block">
+                Đăng ký
+              </button>
+            </form>
+          </article>
+        </section>
+     <!-- featured recipes -->
+       <section class="featured-recipes">
+        <h5 class="featured-title">Hãy nhìn những thứ tuyệt vời dưới này nè !</h5>
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-1.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Carne Asada</h5>
+            <p>Chuẩn bị : 15min | Thời gian nấu chín : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-2.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Greek Ribs</h5>
+            <p>Chuẩn bị : 15min | Thời gian nấu chín : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-3.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Vegetable Soup</h5>
+            <p>Chuẩn bị : 15min | Thời gian nấu chín : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">Tinh Hoa Ẩm Thực</span> Được xây dựng bởi
+        <a href="https://lethithanhtam.com/">Lê Thị Thanh Tâm</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
